@@ -20,7 +20,7 @@ def read_file_get_increases(filename :str) -> int:
         return counter
 
 def main():
-    assert(read_file_get_increases("sample-data.txt")==7)
+    assert(read_file_get_increases("sample-data.txt") == 7)
     assert (read_file_get_increases("day1.txt") == 1167)
 
 if __name__ == "__main__":
